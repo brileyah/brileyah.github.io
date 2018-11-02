@@ -14,10 +14,14 @@ h1{
 
 #description{
     text-align: center;
-    background: #8ebdb8;
-    color: #FBCF78;
+    background: #345C7D;
+    color: #8EBDB8;
     font-weight: bold;
-    border: 2px dashed #FBCF78;
+    border: 2px dashed #BF6C84;
+    width: 40%;
+    margin: 1rem auto;
+    border-radius: 10px;
+
 }
 
 .textcolor{
