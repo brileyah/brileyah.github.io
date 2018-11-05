@@ -1,0 +1,100 @@
+body{
+    background-color: #FAFCFA;
+}
+
+header{
+    font-family: 'Cinzel', serif;
+}
+
+#description{
+    background-image: url(..//images/meshbeautyside.jpeg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+.about{
+    background-color: black;
+    color: white;
+    opacity: .6;
+    width: 32%;
+    padding: .5px 4px;
+    text-align: center;
+   
+}
+
+
+li{
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    opacity: .5;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+li a:visited{
+    color: white;
+}    
+
+li a:link{
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.images{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+#navbar h1{
+    font-family: 'Cinzel', serif;
+    border-bottom: 2px solid #5C7B7E;
+    width: 20%;
+}
+
+
+#social{
+    background-image: url(../images/makeitmiamihorizontal\ copy.jpg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.fab{
+    font-size: 48px;
+}
+
+#social h1{
+        font-family: 'Cinzel', serif;
+        background-color: black;
+        color: white;
+        opacity: .6;
+        width: 18%;
+        text-align: center;
+}
+
+h1{
+    font-family: 'Cinzel', serif;
+    border-bottom: 2px solid #5C7B7E;
+    width: 20%;
+}

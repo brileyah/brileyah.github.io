@@ -1,0 +1,88 @@
+header {}
+
+#description{
+    background-image: url(..//images/alien3.jpg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+  
+.gallery{
+    font-family: 'Cinzel', serif;
+    border-bottom: 2px solid #5C7B7E;
+    width: 10%;
+  }
+
+  .images1{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding-bottom: 30px;
+      
+  }
+
+  .images2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-bottom: 30px;
+  }
+
+ 
+ li {
+    text-decoration: none;
+    display: inline-block;
+    background-color: black;
+    opacity: .5;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+
+li a:visited {
+    color: white;
+}    
+
+a {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    font-family: 'Cinzel', serif;
+}
+
+#navbar h1{
+    font-family: 'Cinzel', serif;
+    border-bottom: 2px solid #5C7B7E;
+    width: 20%;
+}
+
+.portfolio{
+    background-color: black;
+    color: white;
+    opacity: .6;
+    width: 32%;
+    text-align: center;
+}
+
+#video{
+    background-image: url(..//images/blondechoice.jpg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cinzel', serif;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
