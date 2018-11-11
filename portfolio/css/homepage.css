@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
     background-color: #FAFCFA;
 }
@@ -6,28 +10,17 @@ header{
     font-family: 'Cinzel', serif;
 }
 
-#description{
-    background-image: url(..//images/meshbeautyside.jpeg);
-    height:500px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+h1{
     font-family: 'Cinzel', serif;
-    padding-top: 100px;
-    padding-left: 40px;
+    border-bottom: 2px solid #5C7B7E;
+    width: 20%;
+    display: block;
 }
 
-.about{
-    background-color: black;
-    color: white;
-    opacity: .6;
-    width: 32%;
-    padding: .5px 4px;
-    text-align: center;
-   
+#navbar{
+    display: flex;
+    flex-flow: row nowrap;
 }
-
 
 li{
     text-decoration: none;
@@ -45,14 +38,38 @@ li a:visited{
 li a:link{
     color: white;
 }
+
 a {
     text-decoration: none;
     color: white;
 }
 
-#navbar{
-    display: flex;
-    flex-flow: row nowrap;
+#parallax1{
+    background-image: url(..//images/meshbeautyside.jpeg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Cinzel', serif;
+    padding-top: 100px;
+    padding-left: 40px;
+}
+@media screen and (max-width: 768px) {
+    #parallax1{
+        background-attachment: inherit;
+    }
+}
+
+.about{
+    background-color: black;
+    color: white;
+    opacity: .6;
+    width: 32%;
+    padding: .5px 4px;
+    text-align: center;
+    display: block;
+   
 }
 
 .images{
@@ -62,39 +79,149 @@ a {
     margin-bottom: 15px;
 }
 
-#navbar h1{
-    font-family: 'Cinzel', serif;
-    border-bottom: 2px solid #5C7B7E;
-    width: 20%;
-}
 
-
-#social{
+#parallax2{
     background-image: url(../images/makeitmiamihorizontal\ copy.jpg);
     height:500px;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% auto;
     padding-top: 60px;
     padding-left: 40px;
+}
+@media screen and (max-width: 768px) {
+    #parallax2{
+        background-attachment: inherit;
+    }
+}
+
+#parallax2 h1{
+    font-family: 'Cinzel', serif;
+    background-color: black;
+    color: white;
+    opacity: .6;
+    width: 18%;
+    text-align: center;
+    border: 0;
 }
 
 .fab{
     font-size: 48px;
 }
 
-#social h1{
-        font-family: 'Cinzel', serif;
-        background-color: black;
-        color: white;
-        opacity: .6;
-        width: 18%;
-        text-align: center;
+#parallax3{
+    background-image: url(..//images/alien3.jpg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Cinzel', serif;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 768px) {
+    #parallax3{
+        background-attachment: inherit;
+    }
 }
 
-h1{
+#parallax4{
+    background-image: url(..//images/blondechoice.jpg);
+    height:500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    font-family: 'Cinzel', serif;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+@media screen and (max-width: 768px) {
+    #parallax4{
+        background-attachment: inherit;
+    }
+}
+
+.portfolio{
+    background-color: black;
+    color: white;
+    opacity: .6;
+    width: 30%;
+    text-align: center;
+    border: none;
+    
+}
+
+.commercial{
     font-family: 'Cinzel', serif;
     border-bottom: 2px solid #5C7B7E;
-    width: 20%;
+    width: 10%;
+  }
+
+/*swiper*/
+.gallery-img {
+    display: none;
+    max-height: 600px;
 }
+
+.active {
+    display: block;
+}
+
+.image-gallery{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.btn {
+    background-color: #0074d9;
+    color: white;
+    font-size: 20px;
+    padding: 5px 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}*/
+
+.prev {
+    margin-right: 15px;
+}
+
+.btn:disabled {
+    background-color: #777;
+    cursor: not-allowed;
+}
+
+.swiper-slide {
+    text-align: center;
+}
+
+.swiper-container {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+/* background video*/
+#video-background {
+    /*  making the video fullscreen  */
+      position: fixed;
+      right: 0; 
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+      width: auto; 
+      height: auto;
+      z-index: -100;
+    }
+    
